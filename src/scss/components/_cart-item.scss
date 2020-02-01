@@ -1,0 +1,42 @@
+.cart-item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
+
+  img {
+    width: 75px;
+    height: 75px;
+    
+    // same dirty trick as in main view, not optimal
+    padding: 0.4rem;
+    background: hsl(0, 0%, 100%);
+    box-shadow: var(--mainShadow);
+  }
+
+  h4 {
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  
+  h5 {
+    margin: 0.5rem 0;
+    letter-spacing: var(--mainSpacing);
+  }
+}
+
+.item-amount {
+  text-align: center;
+}
+
+.remove-item {
+  color: hsl(0, 0%, 52%);
+  cursor: pointer;
+}
+
+.fa-chevron-up, .fa-chevron-down {
+  color: var(--primaryColor);
+  cursor: pointer;
+}

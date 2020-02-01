@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Chuck 70 Classic High Top",
+        "price": 90,
+        "image": { "fields": { "file": { "url": "./images/Chuck-70-Classic-High-Top-90.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Chuck 70 Classic Low Top",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "./images/Chuck-70-Classic-Low-Top-85.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Chuck Taylor All Star Classic",
+        "price": 70,
+        "image": { "fields": { "file": { "url": "./images/Chuck-Taylor-All-Star-Classic-70.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Unisex Logo Play Chuck Taylor Al Star Low Top",
+        "price": 65,
+        "image": { "fields": { "file": { "url": "./images/Unisex-Logo-Play-Chuck-Taylor-Al-Star-Low-Top-65.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Unisex Renew Cotton Chuck Taylor All Star High Top",
+        "price": 70,
+        "image": { "fields": { "file": { "url": "./images/Unisex-Renew-Cotton-Chuck-Taylor-All-Star-High-Top-70.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Unisex Twisted Prep Chuck 70 High Top",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "./images/Unisex-Twisted-Prep-Chuck-70-High-Top-95.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "VLTG Chuck 70 High Top Shoe",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "./images/VLTG-Chuck-70-High-Top-Shoe-110.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "VLTG Chuck Taylor Al Star Low Top Shoe",
+        "price": 65,
+        "image": { "fields": { "file": { "url": "./images/VLTG-Chuck-Taylor-Al-Star-Low-Top-Shoe-65.jpg" } } }
+      }
+    }
+  ]
+}

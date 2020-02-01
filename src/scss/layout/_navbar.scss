@@ -1,0 +1,46 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid hsla(0, 0%, 2%, 0.1);
+  padding: 2rem 0;
+  background: var(--mainWhite);
+  z-index: 1;
+  box-shadow: 0 4px 4px 0 hsla(0, 0%, 0%, 0.1);  
+
+  &-center {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  .cart-btn {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--primaryColor);
+    padding: 0 5px;
+    border-radius: 30%;
+    color: var(--mainWhite);
+  }
+}

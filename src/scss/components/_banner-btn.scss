@@ -1,0 +1,16 @@
+.banner-btn {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  border: 1px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  cursor: pointer;
+
+  &:hover {
+    background: transparent;
+    color: var(--primaryColor);
+  }
+}
