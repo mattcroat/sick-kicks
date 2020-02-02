@@ -1,3 +1,7 @@
+# Sick Kicks
+
+![Sick Kicks](./src/images/sick-kicks.png "Sick Kicks")
+
 Sick Kicks is a fictional frontend e-commerce shop for buying fresh kicks.
 
 It uses [Contentful](https://www.contentful.com/) as a headless CMS to fetch and populate data.
