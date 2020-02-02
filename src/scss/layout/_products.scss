@@ -6,7 +6,7 @@
   .section-title h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 5rem;
+    margin: 2rem 0;
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);    
   }
@@ -23,12 +23,8 @@
 
   .img-container {
     position: relative;
-    overflow: hidden;
-    box-shadow: var(--mainShadow);
-    
-    // not the best solution, but works
+    overflow: hidden;    
     padding: 2rem;
-    background: hsl(0, 0%, 100%);  
   }
 
   .bag-btn {
