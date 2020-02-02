@@ -1,8 +1,9 @@
 import dotenv from 'dotenv';
-
 dotenv.config();
 
 import '../scss/main.scss';
+
+const contentful = require("contentful");
 
 const client = contentful.createClient({
   space: process.env.SPACE_ID,
